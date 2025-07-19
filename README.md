@@ -29,7 +29,7 @@ cd Application
 ### **2. Deploy the Container**
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 ### **3. Access the Application**
@@ -43,7 +43,7 @@ Result will run on http://localhost:8081
 ### **4. Destroy the Container**
 
 ```bash
-docker-compose down
+docker compose down
 ```
 
 ## **Application Setup**
