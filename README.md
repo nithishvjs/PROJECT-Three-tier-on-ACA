@@ -77,3 +77,6 @@ terraform apply --auto-approve
 ```bash
 terraform destroy --auto-approve
 ```
+
+**Why choose ACA instead of AKS?**
+Read this: https://www.linkedin.com/posts/nithishakash_7-key-differences-between-azure-kubernetes-activity-7352710148005548032-unHY?utm_source=share&utm_medium=member_android&rcm=ACoAAEel6dIB9wkGmzrh38APELpNoDFloUGPqvc
