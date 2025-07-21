@@ -21,22 +21,7 @@ resource "azurerm_container_app" "vote" {
         name  = "REDIS_HOST"
         value =  azurerm_container_app.redis.latest_revision_fqdn
       }
-    }
-
-    scale {
-      min_replicas = 1
-      max_replicas = 10
-
-      rule {
-        name = "http-scaling-rule"
-        custom {
-          type = "http"
-          metadata = {
-            concurrentRequests = "50" 
-          }
-        }
-      }
-    }
+    }
   }
 
   ingress {
